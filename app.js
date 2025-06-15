@@ -13,7 +13,7 @@ function clickAction() {
     console.log(randomNumber);
 
     if (randomNumber == inputText) {
-        document.getElementById("imgBox").innerHTML = '<img width="300" src="https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExdGV6Y2oyZ2hyN2Z6cWE1c21wYXNzMnl1YXF3M29sdTZ6eGMxd3cyayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/etKSrsbbKbqwW6vzOg/giphy.gif" alt="">';
+        document.getElementById("imgBox").innerHTML = '<img width="300" src="https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExNHJ3emw3Z2s5OTMydnRyM3lwbmM0YjVhd2ZwajdqM3FrZjJwcHJvYyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/2afdli2NFvmq1KsIeS/giphy.gif" alt="">';
         document.getElementById("txtDisplay").innerText = "You Win!";
     } else if (randomNumber > inputText) {
         document.getElementById("imgBox").innerHTML = '<img width="300" src="https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExN2loZnVxNTZ3cjA5eHZoMzIzbnQ3OHZkbGg4YjRnNHBzOHRqNW9oayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/xT0xeuOet1BmYQiTcc/giphy.gif" alt="">';
